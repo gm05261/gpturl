@@ -81,9 +81,9 @@ ghcr.io/你的GitHub用户名或组织名/仓库名
 
 触发方式：
 
-- 推送到 `main` 或 `master` 分支时，发布 `latest` 和 `sha-xxxxxxx` 标签。
-- 推送 `v1.2.3` 这类版本标签时，发布 `1.2.3` 和 `1.2` 标签。
 - 在 GitHub 仓库的 `Actions` 页面手动运行 `Publish Docker Image`。
+- 只发布 `latest` 标签。
+- 镜像支持 `linux/amd64` 和 `linux/arm64`。
 
 拉取示例：
 
