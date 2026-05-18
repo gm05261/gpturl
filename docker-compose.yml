@@ -1,0 +1,9 @@
+services:
+  local-payurl-forum:
+    build: .
+    container_name: local-payurl-forum
+    restart: unless-stopped
+    environment:
+      PORT: 7790
+    ports:
+      - "7790:7790"
